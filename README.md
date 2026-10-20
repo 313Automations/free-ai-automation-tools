@@ -4,10 +4,16 @@ Free, browser-based tools and open datasets that help small and mid-sized busine
 
 All tools run entirely in your browser: no sign-up, no tracking of your answers, nothing stored.
 
+Browse everything in one place: [Free AI Search & Automation Tools collection](https://huggingface.co/collections/313Automations/free-ai-search-and-automation-tools-6ad71083526a57de50b28f22) on Hugging Face.
+
 ## Tools
 
 | Tool | Live demo | What it does |
 |---|---|---|
+| AI Crawler robots.txt Checker | [Open](https://huggingface.co/spaces/313Automations/ai-crawler-robots-checker) | Paste a robots.txt to see which of 27 AI crawlers (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot and more) can read your site, and generate a recommended policy |
+| llms.txt Generator | [Open](https://huggingface.co/spaces/313Automations/llms-txt-generator) | Build a valid llms.txt file from your business details and key pages, with checks |
+| Automate or Hire Calculator | [Open](https://huggingface.co/spaces/313Automations/automate-or-hire-calculator) | Compare two years of cost for hiring vs automating a task, with payback and a recommendation |
+| AI Missed-Call Responder ROI Calculator | [Open](https://huggingface.co/spaces/313Automations/missed-call-roi-calculator) | Estimate revenue lost to missed calls and the profit an AI text-back or voice receptionist could recover |
 | AI Readiness Checker | [Open](https://huggingface.co/spaces/313Automations/ai-readiness-checker) | 10 questions scoring processes, data, tools, team and goals; recommends your first automation |
 | AI Use Case Finder | [Open](https://huggingface.co/spaces/313Automations/ai-use-case-finder) | Filter practical AI automation use cases by industry, team and complexity |
 | AI Chatbot ROI Calculator | [Open](https://huggingface.co/spaces/313Automations/chatbot-roi-calculator) | Estimate hours saved, net monthly savings and payback for a support or sales chatbot |
@@ -21,6 +27,10 @@ Source code for each tool is a single self-contained HTML file (no build step), 
 
 | Dataset | Rows | Description |
 |---|---|---|
+| [AI Crawler User Agents](https://huggingface.co/datasets/313Automations/ai-crawler-user-agents) | 27 | AI and search crawlers with robots.txt token, purpose, training use and effect of blocking, sourced from operator docs |
+| [GEO Prompt Library by Industry](https://huggingface.co/datasets/313Automations/geo-prompt-library-by-industry) | 125 | Buyer questions across 25 industries for testing visibility in AI assistants |
+| [SMB Workflow Automation Templates](https://huggingface.co/datasets/313Automations/smb-workflow-automation-templates) | 30 | Trigger, steps, AI step and best-fit platform for common small-business workflows |
+| [FAQ and FAQPage Schema Examples](https://huggingface.co/datasets/313Automations/faq-schema-examples-service-businesses) | 45 | FAQ answer templates for 15 service industries with matching JSON-LD |
 | [SMB AI Automation Use Cases](https://huggingface.co/datasets/313Automations/smb-ai-automation-use-cases) | 25 | Tasks, AI approach, tools, complexity and a first step |
 | [SMB AI Automation FAQ](https://huggingface.co/datasets/313Automations/smb-ai-faq) | 25 | Plain-English answers to common business questions about AI |
 | [GEO Checklist for AI Search](https://huggingface.co/datasets/313Automations/geo-checklist-ai-search) | 20 | GEO checks with why they matter, how to verify, priority and effort |
